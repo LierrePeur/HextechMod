@@ -1,0 +1,25 @@
+modLoader="javafml" #mandatory
+loaderVersion="[37,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="MIT"
+[[mods]] #mandatory
+modId="hextech" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Hextech" #mandatory
+logoFile="examplemod.png" #optional
+credits="" #optional
+authors="LierrePeur" #optional
+# The description text for the mod (multi line!) (#mandatory)
+description=''
+
+[[dependencies.hextech]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[37,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.hextech]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"

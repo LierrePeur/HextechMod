@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated", //generated/handheld
+  "textures": {
+    "layer0": "hextech:items/hextech_crystal"
+  }
+}

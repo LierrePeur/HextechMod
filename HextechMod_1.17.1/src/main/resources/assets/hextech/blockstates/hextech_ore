@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model": "hextech:block/hextech_ore"}
+  }
+}
